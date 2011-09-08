@@ -1,0 +1,18 @@
+.desktop-background,
+.image-coverflow {
+    draw-background: 1;
+    bg-color: #FFFFFF;
+}
+
+
+
+.select_button {
+    bg-color: rgb(22, 61, 220);
+	border-radius: 20;
+	border-radius-precision: .1;
+	font-size: 20;
+	font-name: '%(fontpath)sstonsans.ttf'
+	font-style: 'bold'
+	
+	
+}
