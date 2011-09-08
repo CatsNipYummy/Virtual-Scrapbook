@@ -1,0 +1,10 @@
+In order to compile and run manipulation,do the following
+
+Inside TUIO_CPP,run the following command
+
+make test
+g++ -o test TUIO/TuioClient.o TUIO/TuioServer.o TUIO/TuioTime.o oscpack/osc/OscTypes.o oscpack/osc/OscOutboundPacketStream.o oscpack/osc/OscReceivedElements.o oscpack/osc/OscPrintReceivedElements.o oscpack/ip/posix/NetworkingUtils.o oscpack/ip/posix/UdpSocket.o test.o -L/usr/lib -lSDL -lGL -lGLU -lglut -I/usr/local/include/opencv -I/usr/local/include  -L/usr/local/lib -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lcvblob -lpthread
+mkoctfile --link-stand-alone -o calib calib.cpp
+./calib
+./test
+ 

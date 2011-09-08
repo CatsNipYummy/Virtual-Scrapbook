@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>301</width>
+    <height>243</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QPushButton" name="snap">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>281</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PRESS ME TO SNAP!</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdx1">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>131</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="numDigits">
+    <number>10</number>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdy1">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>90</y>
+     <width>131</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="numDigits">
+    <number>10</number>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdy2">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>130</y>
+     <width>131</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="numDigits">
+    <number>10</number>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdx2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>130</y>
+     <width>131</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="numDigits">
+    <number>10</number>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdy3">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>170</y>
+     <width>131</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="numDigits">
+    <number>10</number>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdx3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>170</y>
+     <width>131</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="numDigits">
+    <number>10</number>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdy4">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>210</y>
+     <width>131</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="numDigits">
+    <number>10</number>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdx4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>210</y>
+     <width>131</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="numDigits">
+    <number>10</number>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
